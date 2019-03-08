@@ -1,0 +1,131 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21 Dec, 2017, 9:33:42 AM
+    Author     : Abhishek
+*/
+
+            
+.tag
+{
+	background-color:#364760;
+	color:#f0f4f6;
+	padding:10px;
+	font-size:10px;
+	border-radius:5px;
+	margin:2px;
+	float:left;
+	display:block;
+        float:left;
+}
+
+.tag span
+{
+    float:left;
+}
+.tag span span
+{
+	color:#f0f4f6;
+	text-decoration:none;
+        visibility: hidden;
+        display:none;
+        float:left;
+}
+
+.editimg
+{
+    display:none;
+}
+
+.cstbtnprimary
+{
+    border-style: solid;
+    border-width:2px; 
+    border-color: #364760;
+    color: #364760;
+    background-color: white;
+    padding: 5px 15px;
+    /*margin: 10px;*/
+    border-radius: 3px;
+}
+
+.cstbtnprimary i
+{
+    color: #364760;
+    font-size: 20px;
+}
+
+.cstbtndefault
+{    
+    border-style: solid;
+    border-width:2px; 
+    border-color: #e7ebf1;
+    color: #555555;
+    background-color: white;
+    padding: 5px 15px;
+    /*margin: 10px;*/
+    border-radius: 3px;
+}
+
+.cstbtndefault i
+{
+    color: #e7ebf1;
+    font-size: 20px;
+}
+
+.cstbtndenger
+{
+     border-style: solid;
+    border-width:2px; 
+    border-color: #e74e40;
+    color: #e74e40;
+    background-color: white;
+    padding: 5px 15px;
+    /*margin: 10px;*/
+    border-radius: 3px;
+}
+
+.cstbtndenger i
+{
+    color: #e74e40;
+    font-size: 20px;
+}
+
+.cstbtnsuccess
+{
+    border-style: solid;
+    border-width:2px; 
+    border-color: #82b440;
+    color: #82b440;
+    background-color: white;
+    padding: 5px 15px;
+    /*margin: 10px;*/
+    border-radius: 3px;
+}
+
+.cstbtnsuccess i
+{
+    color: #82b440;
+     font-size: 20px;
+}
+
+.cstbtnwarning
+{
+   border-style: solid;
+    border-width:2px; 
+    border-color: #f3bc65;
+    color: #f3bc65;
+    background-color: white;
+    padding: 5px 15px;
+    /*margin: 10px;*/
+    border-radius: 3px;
+}
+
+.cstbtnwarning i
+{
+    color: #f3bc65;
+    font-size:20px;
+}

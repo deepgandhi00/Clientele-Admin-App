@@ -1,0 +1,16 @@
+SMAP
+cities_005finsert_005fajax_jsp.java
+JSP
+*S JSP
+*F
++ 0 cities_insert_ajax.jsp
+admin/cities_insert_ajax.jsp
+*L
+1,4:60
+4:87,9
+4,2:65
+6:109,17
+7,3:126
+9:161,5
+9,3:131
+*E

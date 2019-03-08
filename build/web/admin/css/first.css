@@ -1,0 +1,395 @@
+@charset "utf-8";
+/* CSS Document */
+
+.sidenav
+{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 40px;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 200px;
+}
+
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#listspan1
+{
+	color:white;
+	height:20px;
+	width:20px;
+}
+
+#listspan
+{
+	height:20px;
+	width:20px;
+}
+
+#listspan2
+{
+	float:right;
+}
+
+#listspan3
+{
+	float:right;
+}
+
+.glyphicon {
+    font-size: 30px;
+	
+}
+
+.a
+{
+	background-color: #364760;
+	height:50px;
+	float:left;
+	width:20%;
+}
+
+.b
+{
+	background-color:#304056;
+	height:1580px;
+	float:left;
+}
+
+.c
+{
+	background-color:#edf0f2;
+	height:1000px;
+	float:right;
+}
+
+.d
+{
+	background-color:#FFFFFF;
+	height:50px;
+   float:left;
+}
+
+.b img
+{
+	margin:20px;
+}
+
+.fa
+{
+	color:#FFFFFF;
+}
+
+.b .di
+{
+	float:left;
+	width:100%; 
+	height:55px;
+	margin:1px;
+	background-color:#2d3b50;
+}
+
+.b .di:hover
+{
+	background-color:#293649;
+}
+
+.b .di .fa
+{
+	font-size: 14px;
+	color:#6382a9;
+	margin:18px;
+	float:left;
+}
+
+
+.b
+{
+	width:100%;	
+}
+
+.fa-angle-down
+{
+	float:right;
+	margin-right:10px;
+}
+
+.panel-collapse li
+{
+	display: block;
+    float: left;
+    width: 100%;
+    line-height: 45px;
+    font-size: 12px;
+    color: #d7dde2;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.panel-collapse ui
+{
+	    background: #253143;
+}
+
+.panel-group .panel + .panel,.panel
+{
+	margin-top:1px;
+}
+
+
+
+.copen
+{
+	width:80%;
+}
+
+#summary-table
+	{
+		width:80%;
+	}
+	
+	#maincontent1
+	{
+		width:20%;
+	}
+	
+	#col1-div
+	{
+		display:none;
+	}
+	
+.dd i
+{
+	color:#000000;
+	float:right;
+}
+
+/*---------------------new style--------------------------------*/
+.panel
+    {
+        box-shadow:none;
+        border: none;
+    }
+    
+    .collapse
+    {
+        background-color: #304056;
+    }
+    
+    .b
+    {
+         background-color: #304056;
+         height:1000px;
+    }
+    
+        .aa1
+        {   
+            background-color: #293649;
+            height:55px;
+            color:#f0f4f6;
+        }
+        
+        .tableft,.tabcenter,.tabright
+        {
+            float: left; 
+        }
+        
+        .tableft,.tabright
+        {
+            margin: 18px;
+        }
+        
+        .tabcenter
+        {
+            margin-top: 15px;
+        }
+        
+        .tableft
+        {
+            color: #6382a9;
+        }
+        
+        .badge
+        {
+            border-radius:3px;
+            background-color:#e74e40; 
+            float:right;
+            margin-top: 15px;
+        }
+        .tabright
+        {
+            float: right;
+        }
+        
+        ul
+        {
+            margin: 0px;
+        }
+        
+        li
+        {
+            list-style-type:none;
+            color: #d7dde2;
+            padding:5px;
+            
+        }
+        
+        aa1:hover
+        {
+            text-decoration:none;
+       
+        }
+        
+	
+@media only screen and (max-width: 998px) 
+{
+	.b
+	{
+		width:0%;
+                overflow:hidden;
+                /*transition: all 0.5s ease;*/
+	}
+        
+	.full-open
+	{
+		width:100%;
+		height:500px;
+                /*transition:all 0.5s ease;*/
+	}
+        
+	.full-close
+	{
+		height:0px;
+		overflow:hidden;
+                /*transition:all 1s ease;*/
+	}
+        
+	.content-div-full
+	{
+		width:100%;
+                 /*transition:all 1s ease;*/
+	}
+        
+	.content-div
+	{
+		width:100%;
+                 /*transition:all 1s ease;*/
+	}
+        
+/*	.c
+	{
+		width:100%;
+	}*/
+	
+	.a, .d 
+	{
+		width:100%;
+		float:left;
+	}
+	
+	#col-div
+	{
+			display:none;
+	}
+	
+	#col1-div
+	{
+		display:block;
+	}
+	
+	#summary-table
+	{
+		width:100%;
+		float:left;
+	}
+	
+	#maincontent1
+	{
+		width:100%;
+		float:left;
+	}
+	
+	#leftbtn
+	{
+		display:block;
+	}
+	
+	#rightbtn
+	{
+		display:none;
+	}
+}
+
+@media only screen and (min-width: 999px) 
+{
+    
+    .c , .d
+{
+	width:80%;
+}
+    
+	.a,.b
+	{
+		width:20%;
+                float:left;
+                
+	}
+	
+        .b
+        {
+            /*transition:all 0.5s ease;*/
+        }
+        .full-open
+	{
+		width:20%;
+		height:1500px;
+	}
+	
+        .full-close
+	{
+		width:0px;
+		overflow:hidden;
+	}
+	
+        .content-div-full
+	{
+		width:100%;
+                 transition:all 1s ease;
+	}
+	
+        .content-div
+	{
+		width:80%;
+                transition:all 1s ease;
+	}
+	
+	#leftbtn
+	{
+		display:none;
+	}
+	
+	#col1-div
+	{
+		display:none;
+	}	
+}
+
+.collepse3
+{
+	width:100%;
+	height:500px;
+}
+
+.collepse4
+{
+	height:0px;
+}	
